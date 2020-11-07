@@ -1,0 +1,54 @@
+@import "@udacity/veritas-styles/dist/index.css";
+@import "@udacity/veritas-styles/dist/foundation.css";
+
+@media(max-width: 320px) {}
+@media(min-width: 600px) and (max-width: 900px) {}
+@media(min-width: 901px) {
+    .page {
+        display: grid;
+        grid-template-rows: 20% auto 10%;
+        grid-template-areas:
+            "hd hd hd hd hd hd"
+            "nb nb main main main main"
+            "ft ft ft ft ft ft";
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        grid-area: hd;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-area: nb;
+    }
+
+    .content {
+        grid-area: main;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        /*grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));*/
+        gap: 1rem 1rem;
+    }
+
+    .footer {
+        grid-area: ft;
+    }
+
+    .post {
+        border: 1px solid red;
+    }
+}
+
+/* Blog name */
+h1 {
+    font-family: sans-serif;
+}
+
+/* date header in post  */
+h5 {
+    color: grey;
+}
