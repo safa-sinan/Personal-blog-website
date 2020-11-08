@@ -68,10 +68,12 @@
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));*/
 }
-.im1{
-width:300px;
-height:300px;
+
+.im1 {
+    width: 300px;
+    height: 300px;
 }
+
 .footer {
     grid-area: ft;
 }
@@ -81,29 +83,24 @@ h1 {
     font-family: sans-serif;
     color: brown;
 }
-
 /* date header in post  */
 h5 {
     color: grey;
 }
-
 h3 {
     color: green;
     font-family: fantasy;
 }
-
 h4 {
     color: blue;
     font-family: cursive;
 }
-
 .dot {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-
 button {
     background-color: #4CAF50;
     /* Green */
@@ -115,12 +112,12 @@ button {
     display: inline-block;
     font-size: 16px;
 }
-#avatar{
+#avatar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 
 }
-#name{
+#name {
     font-weight: bold;
 }
