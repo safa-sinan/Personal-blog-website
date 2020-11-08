@@ -117,15 +117,14 @@ h4 {
 }
 
 button {
-    background-color: #4CAF50;
-    /* Green */
+    background-color:blue
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #avatar {
