@@ -1,34 +1,49 @@
 @media(max-width: 320px) {
     .page {
         display: grid;
-        grid-template-rows: 10% 10% 224px 10%;
+        grid-template-rows: 10% auto 70% auto;
         grid-template-areas:
             "hd"
             "nb"
             "main"
             "ft";
     }
+
+    .im1 {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media(min-width: 600px) and (max-width: 900px) {
     .page {
         display: grid;
-        grid-template-rows: 10% 10% 224px 10%;
+        grid-template-rows: 10% auto 70% auto;
         grid-template-areas:
             "hd hd hd"
             "main main nb"
             "ft ft ft";
+    }
+
+    .im1 {
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media(min-width: 901px) {
     .page {
         display: grid;
-        grid-template-rows: 10% auto 10%;
+        grid-template-rows: auto 70% auto;
         grid-template-areas:
             "hd hd hd hd hd hd"
             "main main main main nb nb"
             "ft ft ft ft ft ft";
+    }
+
+    .im1 {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -69,11 +84,6 @@
         grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));*/
 }
 
-.im1 {
-    width: 300px;
-    height: 300px;
-}
-
 .footer {
     grid-area: ft;
 }
@@ -83,24 +93,29 @@ h1 {
     font-family: sans-serif;
     color: brown;
 }
+
 /* date header in post  */
 h5 {
     color: grey;
 }
+
 h3 {
     color: green;
     font-family: fantasy;
 }
+
 h4 {
     color: blue;
     font-family: cursive;
 }
+
 .dot {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+
 button {
     background-color: #4CAF50;
     /* Green */
@@ -112,12 +127,14 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+
 #avatar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 
 }
+
 #name {
     font-weight: bold;
 }
