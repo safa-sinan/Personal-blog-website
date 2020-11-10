@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    grid-area: hd;
+}
+
+/*Navigation bar*/
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-area: nb;
+    padding: 0.2rem;
+}
+/*maint post*/
+.content {
+    grid-area: main;
+    padding: 1rem;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: left;
+}

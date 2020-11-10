@@ -1,0 +1,20 @@
+/* Blog name */
+h1 {
+    font-family: sans-serif;
+    color: brown;
+}
+
+/* date header in post  */
+h5 {
+    color: grey;
+}
+
+h3 {
+    color: green;
+    font-family: fantasy;
+}
+
+h4 {
+    color: blue;
+    font-family: cursive;
+}

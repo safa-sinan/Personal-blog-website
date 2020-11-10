@@ -1,0 +1,33 @@
+@media(max-width: 320px) {
+    .page {
+        display: grid;
+        grid-template-rows: 5% 10% 80% 5%;
+        grid-template-areas:
+            "hd"
+            "nb"
+            "main"
+            "ft";
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px) {
+    .page {
+        display: grid;
+        grid-template-rows: 10% auto 5%;
+        grid-template-areas:
+            "hd hd hd"
+            "main main nb"
+            "ft ft ft";
+    }
+}
+
+@media(min-width: 901px) {
+    .page {
+        display: grid;
+        grid-template-rows: 10% auto 5%;
+        grid-template-areas:
+            "hd hd hd hd hd hd"
+            "main main main main nb nb"
+            "ft ft ft ft ft ft";
+    }
+}
