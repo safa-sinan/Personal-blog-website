@@ -14,7 +14,6 @@
         height: 50px;
     }
 }
-
 @media(min-width: 600px) and (max-width: 900px) {
     .page {
         display: grid;
@@ -30,7 +29,6 @@
         height: 100px;
     }
 }
-
 @media(min-width: 901px) {
     .page {
         display: grid;
@@ -46,13 +44,11 @@
         height: 300px;
     }
 }
-
 .header {
     display: flex;
     flex-direction: row;
     grid-area: hd;
 }
-
 /*Navigation bar*/
 .navbar {
     display: flex;
@@ -61,63 +57,50 @@
     grid-area: nb;
     padding: 0.2rem;
 }
-
 #arch {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 
 }
-
 #elsw {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
-
 /*maint post*/
 .content {
     grid-area: main;
     padding: 1rem;
-    /*display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));*/
 }
-
 .footer {
     grid-area: ft;
 }
-
 /* Blog name */
 h1 {
     font-family: sans-serif;
     color: brown;
 }
-
 /* date header in post  */
 h5 {
     color: grey;
 }
-
 h3 {
     color: green;
     font-family: fantasy;
 }
-
 h4 {
     color: blue;
     font-family: cursive;
 }
-
 .dot {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-
 button {
-    background-color:blue
+    background-color: #008CBA;
     border: none;
     color: white;
     padding: 10px 30px;
@@ -126,14 +109,12 @@ button {
     display: inline-block;
     font-size: 15px;
 }
-
 #avatar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 
 }
-
 #name {
     font-weight: bold;
 }
