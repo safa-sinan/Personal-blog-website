@@ -1,27 +1,29 @@
 @media(max-width: 320px) {
     .page {
         display: grid;
-        grid-template-rows: 20% 128px 10%;
+        grid-template-rows: 10% 256px 10%;
         grid-template-areas:
-            "hd hd hd hd hd hd"
-            "nb nb main main main main"
-            "ft ft ft ft ft ft";
+            "hd hd"
+            "nb main"
+            "ft ft ";
     }
 }
+
 @media(min-width: 600px) and (max-width: 900px) {
-.page {
+    .page {
         display: grid;
-        grid-template-rows: 20% auto 10%;
+        grid-template-rows: 10% 480px 10%;
         grid-template-areas:
-            "hd hd hd hd hd hd"
-            "nb nb main main main main"
-            "ft ft ft ft ft ft";
+            "hd hd hd "
+            "nb main main"
+            "ft ft ft ";
     }
 }
+
 @media(min-width: 901px) {
     .page {
         display: grid;
-        grid-template-rows: 20% 800px 10%;
+        grid-template-rows: 10% 720px 10%;
         grid-template-areas:
             "hd hd hd hd hd hd"
             "nb nb main main main main"

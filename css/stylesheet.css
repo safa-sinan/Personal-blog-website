@@ -9,12 +9,15 @@
     justify-content: center;
     background-image: url("paper.gif");
 }
+
 .navbar {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     grid-area: nb;
+    margin: 0.5rem;
 }
+
 .content {
     grid-area: main;
     display: grid;
@@ -22,11 +25,9 @@
     /*grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));*/
     gap: 1rem 1rem;
 }
+
 .footer {
     grid-area: ft;
-}
-.post {
-    border: 1px solid red;
-    padding: 0.2rem;
-    border-style: double;
+    display: flex;
+    justify-content: right;
 }
